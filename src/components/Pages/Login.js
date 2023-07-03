@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "../../styles/Form.module.css";
 import Textinput from "../Textinput";
 import Button from "./Button";
@@ -21,9 +22,9 @@ const Login = () => {
             placeholder="Enter your password"
             icon="lock"
           ></Textinput>
-          <Button text="submit now"></Button>
+          <Button>submit now</Button>
           <div className="info">
-            Don't have an account ? <a href="login.html">Signup</a> instead.
+            Don't have an account ? <Link to="/signup">Signup</Link> instead.
           </div>
         </Form>
       </div>

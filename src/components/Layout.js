@@ -1,10 +1,10 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import classes from "../styles/Layout.module.css";
-import Nav from "./Nav";
 const Layout = ({ children }) => {
   return (
     <>
-      <Nav></Nav>
+      <Outlet></Outlet>
       <main className={classes.main}>
         <div className={classes.container}>{children}</div>
       </main>

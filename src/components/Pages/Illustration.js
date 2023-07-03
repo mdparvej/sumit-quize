@@ -4,7 +4,7 @@ import classes from "../../styles/Illustration.module.css";
 const Illustration = () => {
   return (
     <div>
-      <div class={classes.illustration}>
+      <div className={classes.illustration}>
         <img src={image} alt="Signup" />
       </div>
     </div>
