@@ -1,8 +1,8 @@
 import React from "react";
 
-const Checkboox = ({ text, ...rest }) => {
+const Checkboox = ({ className, text, ...rest }) => {
   return (
-    <label>
+    <label className={className}>
       <input {...rest} />
       <span>{text}</span>
     </label>

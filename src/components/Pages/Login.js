@@ -10,7 +10,7 @@ const Login = () => {
       <h1>Login to your account</h1>
       <div className="column">
         <Illustration />
-        <Form className={`${classes.signup}`}>
+        <Form className={`${classes.login}`}>
           <Textinput
             type="email"
             placeholder="Enter your email"
@@ -22,7 +22,7 @@ const Login = () => {
             icon="lock"
           ></Textinput>
           <Button text="submit now"></Button>
-          <div className="info ">
+          <div className="info">
             Don't have an account ? <a href="login.html">Signup</a> instead.
           </div>
         </Form>
