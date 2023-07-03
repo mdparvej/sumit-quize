@@ -1,7 +1,14 @@
+import "../styles/App.css";
+import Layout from "./Layout";
+import Home from "./Pages/Home";
+import Signup from "./Pages/Signup";
 function App() {
   return (
     <div className="App">
-      <div>Hello world my</div>
+      <Layout>
+        <Home></Home>
+        <Signup></Signup>
+      </Layout>
     </div>
   );
 }
